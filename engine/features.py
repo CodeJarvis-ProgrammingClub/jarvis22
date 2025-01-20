@@ -13,5 +13,5 @@ def openCommand(query):
     query = query.replace("open", "")
     query.lower()
 
-    if query!="":
-        speak()
+    
+        
