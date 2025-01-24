@@ -1,0 +1,48 @@
+features:
+    Traceback (most recent call last):
+    File "c:\Users\STUDENT\Desktop\jarvis\engine\features.py", line 10, in <module>
+    from engine.command import speak
+    ModuleNotFoundError: No module named 'engine'
+
+command:
+nothing
+
+mainpy:
+    Error 259 for command:
+        play "www\assets\audio\start_sound.mp3" wait
+    The driver cannot recognize the specified command parameter.
+    Traceback (most recent call last):
+    File "c:\Users\STUDENT\Desktop\jarvis\main.py", line 9, in <module>
+    playAssistantSound()
+    File "c:\Users\STUDENT\Desktop\jarvis\engine\features.py", line 21, in playAssistantSound
+    playsound(mymusic)
+    File "C:\Users\STUDENT\Desktop\jarvis\envjarvis\Lib\site-packages\playsound.py", line 73, in _playsoundWin
+    winCommand(u'play {}{}'.format(sound, ' wait' if block else ''))
+    File "C:\Users\STUDENT\Desktop\jarvis\envjarvis\Lib\site-packages\playsound.py", line 64, in winCommand
+    raise PlaysoundException(exceptionMessage)
+    playsound.PlaysoundException:
+
+    Error 259 for command:
+        play "www\assets\audio\start_sound.mp3" wait
+    The driver cannot recognize the specified command parameter.
+
+index.html:
+
+
+    he resource from “http://127.0.0.1:5500/www/assets/controller.js” was blocked due to MIME type (“text/html”) mismatch (X-Content-Type-Options: nosniff).
+    index.html
+    The resource from “http://127.0.0.1:5500/eel.js” was blocked due to MIME type (“text/html”) mismatch (X-Content-Type-Options: nosniff).
+    index.html
+    Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content. modernizr.min.js:1:4012
+    The resource from “http://127.0.0.1:5500/www/assets/controller.js” was blocked due to MIME type (“text/html”) mismatch (X-Content-Type-Options: nosniff).
+    index.html
+    Loading failed for the <script> with source “http://127.0.0.1:5500/www/assets/controller.js”. index.html:115:45
+    The resource from “http://127.0.0.1:5500/eel.js” was blocked due to MIME type (“text/html”) mismatch (X-Content-Type-Options: nosniff).
+    index.html
+    Loading failed for the <script> with source “http://127.0.0.1:5500/eel.js”. index.html:116:27
+    Live reload enabled. index.html:147:13
+    Uncaught ReferenceError: eel is not defined
+    <anonymous> main.js:47
+    jQuery 2
+
+further error are i think there
